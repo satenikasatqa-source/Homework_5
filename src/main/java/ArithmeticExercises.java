@@ -17,6 +17,8 @@ public class ArithmeticExercises {
         System.out.println((b / c + a));
         System.out.println((b + c) <= a);
         System.out.println(a * c + b);
+
+        overflowExample(); 
     }
 
     public static void overflowExample() {
